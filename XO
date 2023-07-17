@@ -1,0 +1,131 @@
+a = 'a'
+b = 'b'
+c = 'c'
+d = 'd'
+e = 'e'
+f = 'f'
+g = 'g' 
+h = 'h'
+i = 'i'
+m1 = a, b, c
+m2 = d, e, f
+m3 = g, h, i
+print (m1)
+print (m2)
+print (m3)
+X = 'X'
+O = 'O'
+v = bool(not(a == b == c) and not(d == f == e) and not(g == h == i) and not(a == d == g) and not(b == e == h) and not(c == f == i) and not (a == e == i) and not(c == e == g))
+while v: 
+    print ('First player')
+    x = input('Введите X:')
+    if (x == 'a'):
+        if (a != 'X') and (a != 'O'):
+            a = X
+        else:
+            print ('You cannot do this')
+    if (x == 'b'): 
+        if (b != 'X') and (b != 'O'):
+            b = X
+        else: 
+            print ('You cannot do this')
+    if (x == 'c'):
+        if (c != 'X') and (c != 'O'):
+            c = X
+        else:
+            print ('You cannot do this')
+    if (x == 'd'): 
+        if (d != 'X') and (d != 'O'):
+            d = X
+        else:
+            print ('You cannot do this')
+    if (x == 'e'): 
+        if (e != 'X') and (e != 'O'):
+            e = X
+        else: 
+            print ('You cannot do this')
+    if (x == 'f'):  
+        if(f != 'X') and (f != 'O'):
+            f = X
+        else:
+            print ('You cannot do this')
+    if (x == 'g'): 
+        if(g != 'X') and (g != 'O'):
+            g = X
+        else:
+            print ('You cannot do this')
+    if (x == 'h'):  
+        if(h != 'X') and (h != 'O'):
+            h = X
+        else:
+            print ('You cannot do this')
+    if (x == 'i'):  
+        if(i != 'X') and (i != 'O'):
+            i = X
+        else:
+            print ('You cannot do this')
+    m1 = a, b, c
+    m2 = d, e, f
+    m3 = g, h, i
+    print (m1)
+    print (m2)
+    print (m3)
+    print ('Second player')
+    o = input('Введите O:')
+    if o == 'a':
+        if (a != 'X') and (a != 'O'):
+            a = O
+        else:
+            print ('You cannot do this')
+    if o == 'b':
+        if (b != 'X') and (b != 'O'):
+            b = O
+        else:
+            print ('You cannot do this')
+    if o == 'c':
+        if (c != 'X') and (c != 'O'):
+            c = O
+        else:
+            print ('You cannot do this')
+    if o == 'd':
+        if (d != 'X') and (d != 'O'):
+            d = O
+        else:
+            print ('You cannot do this')
+    if o == 'e':
+        if (e != 'X') and (e != 'O'):
+            e = O
+        else:
+            print ('You cannot do this')
+    if o == 'f':
+        if (f != 'X') and (f != 'O'):
+            f = O
+        else:
+            print ('You cannot do this')
+    if o == 'g':
+        if (g != 'X') and (g != 'O'):
+            g = O
+        else:
+            print ('You cannot do this')
+    if o == 'h':
+        if (h != 'X') and (h != 'O'):
+            h = O
+        else:
+            print ('You cannot do this')
+    if o == 'i':
+        if (i != 'X') and (i != 'O'):
+            i = O
+        else:
+            print ('You cannot do this')
+    m1 = a, b, c
+    m2 = d, e, f
+    m3 = g, h, i
+    print (m1)
+    print (m2)
+    print (m3)
+    v = bool(not(a == b == c) and not(d == f == e) and not(g == h == i) and not(a == d == g) and not(b == e == h) and not(c == f == i) and not (a == e == i) and not(c == e == g))
+    
+else:
+    print ('End of game')
+
+
